@@ -72,7 +72,7 @@ body {
 }
 
 .container-popisek {
-    margin-top: 8rem;
+    margin-top: 5rem;
     display: flex;
     /* Flexbox aktivní */
     justify-content: center;
@@ -86,7 +86,7 @@ body {
 
 
 .popisek {
-    width: 12rem;
+    width: 15rem;
     font-family: "Kanit", serif;
     margin-top: 10px;
     text-align: center;
