@@ -7,7 +7,7 @@ body {
 .navbar {
     background-image: linear-gradient(to right, #77FF66, #1a2c16);
     margin-top: 0;
-    width: 45%;
+    width: 50%;
     height: 60px;
     margin: 0px auto;
     gap: 20px;
@@ -53,4 +53,32 @@ body {
 #logo:hover {
     border-radius: 50px;
     transition: 0.5s;
+}
+
+.nazev-container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.nazev-container h1 {
+    font-family: "Kanit", serif;
+    font-size: 40px;
+}
+
+.nazev-container h2 {
+    font-family: 'Kanit', serif;
+    font-size: 32px;
+    color: limegreen
+}
+
+.container-popisek {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.popisek {
+    width: 12rem;
+    font-family: "Kanit", serif;
+    margin-top: 10px;
+    text-align: center;
 }
