@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE5CC;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #77FF66, #1a2c16);
+    margin-top: 0;
+    width: 45%;
+    height: 55px;
+    margin: 0px auto;
+    gap: 30px;
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+    transition: 4s ease;
+}
+
+.navbar p {
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    font-family: "Kanit", serif;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.navbar a {
+    margin: 0px auto;
+}
+
+.navbar:hover {
+    border-radius: 22px;
+    width: 55%;
+    transition-delay: 1s;
+    transition: 2s;
+    animation: both;
+    border: 5px solid;
+}
