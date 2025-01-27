@@ -99,16 +99,17 @@ body {
     align-items: center;
 }
 
-@media (max-width: 1245px){
-    .navbar{
+@media (max-width: 1245px) {
+    .navbar {
         flex-direction: column;
         padding-block: 100px;
         justify-content: center;
+        width: 60%;
     }
-    .navbar:hover{
+
+    .navbar:hover {
         background-image: linear-gradient(to right, #77FF66, #1a2c16);
         margin-top: 0;
-        width: 50%;
         height: 60px;
         margin: 0px auto;
         gap: 20px;
