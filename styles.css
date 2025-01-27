@@ -8,14 +8,15 @@ body {
     background-image: linear-gradient(to right, #77FF66, #1a2c16);
     margin-top: 0;
     width: 45%;
-    height: 55px;
+    height: 60px;
     margin: 0px auto;
-    gap: 30px;
+    gap: 20px;
     display: flex;
     border-radius: 20px;
     text-align: center;
     margin-top: 50px;
     transition: 4s ease;
+    text-align: center;
 }
 
 .navbar p {
