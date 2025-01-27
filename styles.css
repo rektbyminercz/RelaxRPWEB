@@ -43,7 +43,7 @@ body {
 #logo {
     display: block;
     margin: 0px auto;
-    top: 10%;
+    margin-top: 80px;
     height: 250px;
     border-radius: 20px;
     transition: 0.5s ease;
