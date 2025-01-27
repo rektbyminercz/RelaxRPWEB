@@ -73,12 +73,27 @@ body {
 
 .container-popisek {
     margin-top: 8rem;
+    display: flex;
+    /* Flexbox aktivní */
+    justify-content: center;
+    /* Horizontální zarovnání */
+    align-items: center;
+    /* Vertikální zarovnání */
+    flex-direction: column;
+    /* Ujistí se, že obsah půjde svisle */
     text-align: center;
 }
+
 
 .popisek {
     width: 12rem;
     font-family: "Kanit", serif;
     margin-top: 10px;
     text-align: center;
+}
+
+.text {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
