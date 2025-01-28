@@ -114,6 +114,7 @@ body {
     color: white;
     border-radius: 20px;
     text-align: center;
+    transition: 1.5s ease;
 }
 
 .proc-container {
@@ -126,6 +127,19 @@ body {
     position: relative;
     top: 20px;
     /* Upravte podle potřeby */
+}
+
+.proc:hover {
+    transition-duration: 1.5s;
+    padding: 8px;
+}
+
+.footer p {
+    text-align: center;
+    font-family: "Kanit", serif;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 24px;
 }
 
 @media (max-width: 1245px) {
@@ -168,3 +182,4 @@ body {
         top: 0px;
     }
 }
+
