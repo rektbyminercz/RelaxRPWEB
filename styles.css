@@ -95,6 +95,39 @@ body {
     align-items: center;
 }
 
+.proc-nas {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: "Kanit", serif;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+.proc {
+    width: 350px;
+    height: auto;
+    border: 5px solid;
+    background-image: linear-gradient(to right, #77FF66, #1a2c16);
+    margin-top: 2rem;
+    font-family: 'Kanit', serif;
+    font-size: 22px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.proc-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#trochudole {
+    position: relative;
+    top: 20px;
+    /* Upravte podle potřeby */
+}
+
 @media (max-width: 1245px) {
     .navbar {
         flex-direction: column;
@@ -116,5 +149,22 @@ body {
         transition: 0.3s ease;
         text-align: center;
         border: none;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .proc-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        top: 0px;
+    }
+}
+
+@media (max-width: 650px) {
+    #trochudole {
+        top: 0px;
     }
 }
