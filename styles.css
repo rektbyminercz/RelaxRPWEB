@@ -183,3 +183,72 @@ body {
     }
 }
 
+@media (max-width: 320px) {
+    .proc {
+        width: 300px;
+    }
+
+    .footer p {
+        font-size: 22px;
+    }
+
+    .proc:hover {
+        padding: 0px;
+    }
+
+}
+
+@media (max-width:375px) {
+    .proc:hover {
+        padding: 2px;
+        transition-duration: 0.3s;
+    }
+
+    .proc {
+        transition-duration: 0.3s ease;
+    }
+
+    .navbar {
+        width: 70%;
+        transition-duration: 1.3s ease;
+    }
+
+    .navbar:hover {
+        width: 75%;
+        transition-duration: 1.3s ease;
+    }
+}
+
+@media (max-width:390px) {
+    .navbar {
+        width: 70%;
+        transition-duration: 1.3s ease;
+    }
+
+    .navbar:hover {
+        width: 75%;
+        transition-duration: 1.3s;
+    }
+}
+
+@media (max-width:430px) {
+    .navbar {
+        width: 70%;
+        transition-duration: 1.3s ease;
+    }
+
+    .navbar:hover {
+        width: 75%;
+        transition-duration: 1.3s;
+    }
+}
+
+@media (max-width:768px) {
+    .proc {
+        width: 220px;
+    }
+
+    .proc p {
+        font-size: 20px;
+    }
+}
